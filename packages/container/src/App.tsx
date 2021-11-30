@@ -3,6 +3,8 @@ import React from 'react';
 import CounterAppTwo from 'app2/CounterAppTwo';
 //@ts-ignore
 import CounterAppOne from 'app1/CounterAppOne';
+//@ts-ignore
+import ButtonMUI from 'app1/ButtonMUI';
 
 export default () => (
   <div style={{ margin: '20px' }}>
@@ -39,6 +41,11 @@ export default () => (
             <h2>APP-2</h2>
             <CounterAppTwo />
           </div>
+          <div style={{ border: '1px dashed black', padding: '2rem', marginLeft: '2rem' }}>
+            <h2>APP-1 buttons</h2>
+            <ButtonMUI></ButtonMUI>
+          </div>
+       
         </div>
       </div>
     </React.Suspense>

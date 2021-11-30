@@ -34,6 +34,7 @@ module.exports = {
       exposes: {
         // expose each component
         './CounterAppOne': './src/components/CounterAppOne',
+        './ButtonMUI': './src/components/ButtonMUI',
       },
       shared: {
         ...deps,
@@ -41,8 +42,8 @@ module.exports = {
         'react-dom': {
           singleton: true,
           eager: true,
-          requiredVersion: deps['react-dom'],
-        },
+          requiredVersion: deps['react-dom'],          
+        }       
       },
     }),
     new HtmlWebpackPlugin({
