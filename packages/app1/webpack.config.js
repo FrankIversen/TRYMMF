@@ -42,7 +42,11 @@ module.exports = {
         'react-dom': {
           singleton: true,
           eager: true,
-          requiredVersion: deps['react-dom'],          
+          requiredVersion: deps['react-dom'],
+        //   '@mui/material/styles ': {
+        //     singleton: true, // Sharing styles package as singleton                 
+        // }      
+                    
         }       
       },
     }),
