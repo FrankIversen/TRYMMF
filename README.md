@@ -7,4 +7,4 @@ Run "yarn install"
 
 Run "yarn start"
 
-Go to localhost:3000 and see the running microfrontend app
+Go to localhost:3000 
